@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E7212015769610240295E9C /* Pods_Game_Night.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4751213574A41C991B6C69 /* Pods_Game_Night.framework */; };
+		EC7FA42426AE111F00A1253D /* Game_NightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7FA42326AE111F00A1253D /* Game_NightApp.swift */; };
+		EC7FA42626AE111F00A1253D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7FA42526AE111F00A1253D /* ContentView.swift */; };
+		EC7FA42826AE112100A1253D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC7FA42726AE112100A1253D /* Assets.xcassets */; };
+		EC7FA42B26AE112100A1253D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC7FA42A26AE112100A1253D /* Preview Assets.xcassets */; };
+		ECD2EB8C26AE119100BB883D /* BottomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD2EB8B26AE119100BB883D /* BottomTabView.swift */; };
+		ECD2EB8F26AE122200BB883D /* MyGamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD2EB8E26AE122200BB883D /* MyGamesView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1FE040F475D95F5B0B604953 /* Pods-Game Night.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Game Night.debug.xcconfig"; path = "Target Support Files/Pods-Game Night/Pods-Game Night.debug.xcconfig"; sourceTree = "<group>"; };
+		CD4751213574A41C991B6C69 /* Pods_Game_Night.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Game_Night.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD5B486A97A16FA9780E2786 /* Pods-Game Night.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Game Night.release.xcconfig"; path = "Target Support Files/Pods-Game Night/Pods-Game Night.release.xcconfig"; sourceTree = "<group>"; };
+		EC7FA42026AE111F00A1253D /* Game Night.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Game Night.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC7FA42326AE111F00A1253D /* Game_NightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game_NightApp.swift; sourceTree = "<group>"; };
+		EC7FA42526AE111F00A1253D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC7FA42726AE112100A1253D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC7FA42A26AE112100A1253D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC7FA42C26AE112100A1253D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECD2EB8B26AE119100BB883D /* BottomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTabView.swift; sourceTree = "<group>"; };
+		ECD2EB8E26AE122200BB883D /* MyGamesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGamesView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC7FA41D26AE111F00A1253D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E7212015769610240295E9C /* Pods_Game_Night.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4CC48740AD3C708A5F6D9FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FE040F475D95F5B0B604953 /* Pods-Game Night.debug.xcconfig */,
+				DD5B486A97A16FA9780E2786 /* Pods-Game Night.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E58636127B26BFE64A962716 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD4751213574A41C991B6C69 /* Pods_Game_Night.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC7FA41726AE111F00A1253D = {
+			isa = PBXGroup;
+			children = (
+				EC7FA42226AE111F00A1253D /* Game Night */,
+				EC7FA42126AE111F00A1253D /* Products */,
+				A4CC48740AD3C708A5F6D9FB /* Pods */,
+				E58636127B26BFE64A962716 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EC7FA42126AE111F00A1253D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC7FA42026AE111F00A1253D /* Game Night.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC7FA42226AE111F00A1253D /* Game Night */ = {
+			isa = PBXGroup;
+			children = (
+				ECD2EB8D26AE121400BB883D /* Screens */,
+				EC7FA42726AE112100A1253D /* Assets.xcassets */,
+				ECD2EB8B26AE119100BB883D /* BottomTabView.swift */,
+				EC7FA42526AE111F00A1253D /* ContentView.swift */,
+				EC7FA42326AE111F00A1253D /* Game_NightApp.swift */,
+				EC7FA42C26AE112100A1253D /* Info.plist */,
+				EC7FA42926AE112100A1253D /* Preview Content */,
+			);
+			path = "Game Night";
+			sourceTree = "<group>";
+		};
+		EC7FA42926AE112100A1253D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EC7FA42A26AE112100A1253D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ECD2EB8D26AE121400BB883D /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				ECD2EB8E26AE122200BB883D /* MyGamesView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC7FA41F26AE111F00A1253D /* Game Night */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC7FA42F26AE112100A1253D /* Build configuration list for PBXNativeTarget "Game Night" */;
+			buildPhases = (
+				2890FF9506A8D12BC3D82A25 /* [CP] Check Pods Manifest.lock */,
+				EC7FA41C26AE111F00A1253D /* Sources */,
+				EC7FA41D26AE111F00A1253D /* Frameworks */,
+				EC7FA41E26AE111F00A1253D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Game Night";
+			productName = "Game Night";
+			productReference = EC7FA42026AE111F00A1253D /* Game Night.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC7FA41826AE111F00A1253D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					EC7FA41F26AE111F00A1253D = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = EC7FA41B26AE111F00A1253D /* Build configuration list for PBXProject "Game Night" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC7FA41726AE111F00A1253D;
+			productRefGroup = EC7FA42126AE111F00A1253D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC7FA41F26AE111F00A1253D /* Game Night */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC7FA41E26AE111F00A1253D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7FA42B26AE112100A1253D /* Preview Assets.xcassets in Resources */,
+				EC7FA42826AE112100A1253D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2890FF9506A8D12BC3D82A25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Game Night-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC7FA41C26AE111F00A1253D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD2EB8C26AE119100BB883D /* BottomTabView.swift in Sources */,
+				EC7FA42626AE111F00A1253D /* ContentView.swift in Sources */,
+				ECD2EB8F26AE122200BB883D /* MyGamesView.swift in Sources */,
+				EC7FA42426AE111F00A1253D /* Game_NightApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EC7FA42D26AE112100A1253D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC7FA42E26AE112100A1253D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC7FA43026AE112100A1253D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FE040F475D95F5B0B604953 /* Pods-Game Night.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Game Night/Preview Content\"";
+				DEVELOPMENT_TEAM = J4D9K2HZLJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Game Night/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jerielng.Game-Night";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC7FA43126AE112100A1253D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD5B486A97A16FA9780E2786 /* Pods-Game Night.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Game Night/Preview Content\"";
+				DEVELOPMENT_TEAM = J4D9K2HZLJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Game Night/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jerielng.Game-Night";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC7FA41B26AE111F00A1253D /* Build configuration list for PBXProject "Game Night" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC7FA42D26AE112100A1253D /* Debug */,
+				EC7FA42E26AE112100A1253D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC7FA42F26AE112100A1253D /* Build configuration list for PBXNativeTarget "Game Night" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC7FA43026AE112100A1253D /* Debug */,
+				EC7FA43126AE112100A1253D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC7FA41826AE111F00A1253D /* Project object */;
+}
