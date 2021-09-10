@@ -9,7 +9,10 @@ import SwiftUI
 
 struct MyGamesView: View {
     var body: some View {
-        Text("My Games")
+        LazyHGrid(rows: [.init(.fixed(10))], content: {
+            /*@START_MENU_TOKEN@*/Text("Placeholder")/*@END_MENU_TOKEN@*/
+            /*@START_MENU_TOKEN@*/Text("Placeholder")/*@END_MENU_TOKEN@*/
+        })
     }
 }
 

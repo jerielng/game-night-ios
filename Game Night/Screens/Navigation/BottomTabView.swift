@@ -10,11 +10,13 @@ import SwiftUI
 struct BottomTabView: View {
     var body: some View {
         TabView {
-            ContentView()
-                .tabItem { Label("Home", systemImage: "bookmarks") }
+            HomeView()
+                .tabItem { Label("Home", systemImage: "house.fill") }
             MyGamesView()
-                .tabItem { Label("My Games", systemImage: "bookmarks")}
+                .tabItem { Label("My Games", systemImage: "gamecontroller.fill")}
             
+            SettingsView()
+                .tabItem { Label("Settings", systemImage: "gearshape.fill") }
         }
     }
 }

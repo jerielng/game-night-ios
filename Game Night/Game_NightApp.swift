@@ -11,7 +11,7 @@ import SwiftUI
 struct Game_NightApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
             BottomTabView()
         }
     }

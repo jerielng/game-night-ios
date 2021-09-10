@@ -8,10 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		9E7212015769610240295E9C /* Pods_Game_Night.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4751213574A41C991B6C69 /* Pods_Game_Night.framework */; };
+		EC3CCA7126D0954F007E9D1B /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3CCA7026D0954F007E9D1B /* SettingsViewModel.swift */; };
 		EC7FA42426AE111F00A1253D /* Game_NightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7FA42326AE111F00A1253D /* Game_NightApp.swift */; };
-		EC7FA42626AE111F00A1253D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7FA42526AE111F00A1253D /* ContentView.swift */; };
+		EC7FA42626AE111F00A1253D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7FA42526AE111F00A1253D /* HomeView.swift */; };
 		EC7FA42826AE112100A1253D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC7FA42726AE112100A1253D /* Assets.xcassets */; };
 		EC7FA42B26AE112100A1253D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC7FA42A26AE112100A1253D /* Preview Assets.xcassets */; };
+		EC90245E26B0D7B200A29867 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC90245D26B0D7B200A29867 /* SettingsView.swift */; };
+		EC97D13226EAD2F9002EDE28 /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC97D13126EAD2F9002EDE28 /* FriendsView.swift */; };
+		EC97D13826EAD6AA002EDE28 /* MyAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC97D13726EAD6AA002EDE28 /* MyAccountView.swift */; };
 		ECD2EB8C26AE119100BB883D /* BottomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD2EB8B26AE119100BB883D /* BottomTabView.swift */; };
 		ECD2EB8F26AE122200BB883D /* MyGamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD2EB8E26AE122200BB883D /* MyGamesView.swift */; };
 /* End PBXBuildFile section */
@@ -20,12 +24,16 @@
 		1FE040F475D95F5B0B604953 /* Pods-Game Night.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Game Night.debug.xcconfig"; path = "Target Support Files/Pods-Game Night/Pods-Game Night.debug.xcconfig"; sourceTree = "<group>"; };
 		CD4751213574A41C991B6C69 /* Pods_Game_Night.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Game_Night.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD5B486A97A16FA9780E2786 /* Pods-Game Night.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Game Night.release.xcconfig"; path = "Target Support Files/Pods-Game Night/Pods-Game Night.release.xcconfig"; sourceTree = "<group>"; };
+		EC3CCA7026D0954F007E9D1B /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 		EC7FA42026AE111F00A1253D /* Game Night.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Game Night.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC7FA42326AE111F00A1253D /* Game_NightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game_NightApp.swift; sourceTree = "<group>"; };
-		EC7FA42526AE111F00A1253D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC7FA42526AE111F00A1253D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		EC7FA42726AE112100A1253D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC7FA42A26AE112100A1253D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EC7FA42C26AE112100A1253D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC90245D26B0D7B200A29867 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		EC97D13126EAD2F9002EDE28 /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
+		EC97D13726EAD6AA002EDE28 /* MyAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountView.swift; sourceTree = "<group>"; };
 		ECD2EB8B26AE119100BB883D /* BottomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTabView.swift; sourceTree = "<group>"; };
 		ECD2EB8E26AE122200BB883D /* MyGamesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGamesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,6 +67,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EC3CCA6F26D09540007E9D1B /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				EC97D13626EAD692002EDE28 /* MyAccount */,
+				EC90245D26B0D7B200A29867 /* SettingsView.swift */,
+				EC3CCA7026D0954F007E9D1B /* SettingsViewModel.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
 		EC7FA41726AE111F00A1253D = {
 			isa = PBXGroup;
 			children = (
@@ -80,13 +98,12 @@
 		EC7FA42226AE111F00A1253D /* Game Night */ = {
 			isa = PBXGroup;
 			children = (
-				ECD2EB8D26AE121400BB883D /* Screens */,
 				EC7FA42726AE112100A1253D /* Assets.xcassets */,
-				ECD2EB8B26AE119100BB883D /* BottomTabView.swift */,
-				EC7FA42526AE111F00A1253D /* ContentView.swift */,
 				EC7FA42326AE111F00A1253D /* Game_NightApp.swift */,
 				EC7FA42C26AE112100A1253D /* Info.plist */,
+				EC90245C26B0D78000A29867 /* Networking */,
 				EC7FA42926AE112100A1253D /* Preview Content */,
+				ECD2EB8D26AE121400BB883D /* Screens */,
 			);
 			path = "Game Night";
 			sourceTree = "<group>";
@@ -99,10 +116,61 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		ECD2EB8D26AE121400BB883D /* Screens */ = {
+		EC90245B26B0D73D00A29867 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				ECD2EB8B26AE119100BB883D /* BottomTabView.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		EC90245C26B0D78000A29867 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		EC97D12F26EAD2BE002EDE28 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EC7FA42526AE111F00A1253D /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EC97D13026EAD2C9002EDE28 /* MyGames */ = {
 			isa = PBXGroup;
 			children = (
 				ECD2EB8E26AE122200BB883D /* MyGamesView.swift */,
+			);
+			path = MyGames;
+			sourceTree = "<group>";
+		};
+		EC97D13326EAD300002EDE28 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				EC97D13126EAD2F9002EDE28 /* FriendsView.swift */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		EC97D13626EAD692002EDE28 /* MyAccount */ = {
+			isa = PBXGroup;
+			children = (
+				EC97D13726EAD6AA002EDE28 /* MyAccountView.swift */,
+			);
+			path = MyAccount;
+			sourceTree = "<group>";
+		};
+		ECD2EB8D26AE121400BB883D /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				EC97D13326EAD300002EDE28 /* Friends */,
+				EC97D12F26EAD2BE002EDE28 /* Home */,
+				EC97D13026EAD2C9002EDE28 /* MyGames */,
+				EC90245B26B0D73D00A29867 /* Navigation */,
+				EC3CCA6F26D09540007E9D1B /* Settings */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -202,8 +270,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC97D13226EAD2F9002EDE28 /* FriendsView.swift in Sources */,
+				EC90245E26B0D7B200A29867 /* SettingsView.swift in Sources */,
+				EC3CCA7126D0954F007E9D1B /* SettingsViewModel.swift in Sources */,
+				EC97D13826EAD6AA002EDE28 /* MyAccountView.swift in Sources */,
 				ECD2EB8C26AE119100BB883D /* BottomTabView.swift in Sources */,
-				EC7FA42626AE111F00A1253D /* ContentView.swift in Sources */,
+				EC7FA42626AE111F00A1253D /* HomeView.swift in Sources */,
 				ECD2EB8F26AE122200BB883D /* MyGamesView.swift in Sources */,
 				EC7FA42426AE111F00A1253D /* Game_NightApp.swift in Sources */,
 			);
